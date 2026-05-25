@@ -1,1 +1,29 @@
-��
+# 1. 异构视觉网关基础配置
+server:
+  host: "127.0.0.1"
+  port: 8000
+
+# 2. 多模态双通道模型参数
+models:
+  # 2D 通道：yolo检测
+  yolo_2d:
+    name: "YOLOv8-Detector"
+    weight_path: "weights/yolov8n.pt"
+    default_confidence: 0.25
+    
+  # 3D 通道：GAMUT 点云多任务联合感知模型
+  pointcloud_3d:
+    name: "GAMUT-3D-Pointcloud-Grading-System"
+    weight_path: "weights/GAMUT_fold0.pth"
+    # 你论文里点云模型需要的超参数，比如采样点数，直接配置在这里！
+    num_points: 1024
+    supported_formats: [".ply", ".npy", ".txt"]
+
+# 🌟 新增：云端大模型 Agent 决策配置
+llm:
+  # 阿里云百炼的标准通用接口地址
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  # 📥 把你刚刚在网页上复制的 sk- 开头的密码，严丝合缝地粘贴在下面！
+  api_key: "sk-1198e1e5ac6a449cbd5c95b1c0529319"
+  # 选用通义千问目前性价比最高、极度聪明的开源模型
+  model_name: "qwen-plus"
