@@ -141,14 +141,18 @@ async def predict_3d(
                 matched_row = df[pd.to_numeric(df[id_column_name], errors='coerce') == search_int_id]
                 
                 if not matched_row.empty:
-                    true_shape = str(matched_row.iloc[0, 1])  # 第二列：真实形状
+                    # 🌟 修正：抛弃数字索引，直接用 Excel 的真实列名（表头）抓取，彻底解决读反的问题！
                     try:
-                        true_weight = float(matched_row.iloc[0, 2]) # 第三列：真实重量
-                    except:
-                        true_weight = "N/A"
-                    logger.info(f"🎯 [真值精准命中] 成功破壁对齐！形状: {true_shape}, 重量: {true_weight}g")
-                else:
-                    logger.warning(f"⚠️ [真值脱靶] 在 Excel 的 [{id_column_name}] 列中，找不到数字编号为 {search_int_id} 的行！")
+                        # 假设你的 Excel 重量列名叫 "true_weight"，形状列名叫 "true_shape"
+                        # 如果你的 Excel 真实列名是中文（如"真实重量"），直接把引号里换成中文即可！
+                        true_weight = float(matched_row["true_weight"].iloc[0])
+                        true_shape = str(matched_row["true_shape"].iloc[0])
+                    except KeyError:
+                        # 防御性备用方案：如果列名对不上，自动用更稳妥的动态位置读取
+                        true_weight = float(matched_row.iloc[0, 1])
+                        true_shape = str(matched_row.iloc[0, 2])
+                        
+                    logger.info(f"🎯 [真值精准命中] 列名对齐成功！形状: {true_shape}, 重量: {true_weight}g")
         # =======================================================================
 
         # 2. 读入文件并解析为 NumPy 空间坐标矩阵
