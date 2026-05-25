@@ -166,3 +166,13 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2026-05-25 15:44:11,263 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 成功破壁对齐！形状: 37.7, 重量: 1.0g
 2026-05-25 15:44:19,280 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-25 15:44:19,290 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 001 的全链路多模态指标已被持久化写入数据库！
+2026-05-25 16:49:28,197 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-05-25 16:49:28,224 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-05-25 16:49:28,255 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-05-25 16:49:28,657 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-05-25 16:49:28,658 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-05-25 16:49:40,202 - [INFO] - GAMUT-Production-Gateway - 🧊 [3D 通道] 接收到点云文件: strawberry001.ply
+2026-05-25 16:49:40,202 - [INFO] - GAMUT-Production-Gateway - 🔍 [真值检索] 提取编号: [001] -> 统一转换整数 ID 进行查表: [1]
+2026-05-25 16:49:40,202 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 列名对齐成功！形状: 1, 重量: 37.7g
+2026-05-25 16:49:48,607 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 16:49:48,619 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 001 的全链路多模态指标已被持久化写入数据库！
