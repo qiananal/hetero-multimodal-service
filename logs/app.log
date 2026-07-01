@@ -176,3 +176,264 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2026-05-25 16:49:40,202 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 列名对齐成功！形状: 1, 重量: 37.7g
 2026-05-25 16:49:48,607 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-25 16:49:48,619 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 001 的全链路多模态指标已被持久化写入数据库！
+2026-06-01 13:25:18,854 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:25:18,863 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:25:18,902 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:25:19,398 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:25:19,400 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-01 13:38:17,697 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:38:17,706 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:38:17,722 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:38:18,085 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:38:18,093 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-01 13:38:26,504 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:38:26,513 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:38:26,532 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:38:26,876 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:38:26,879 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-01 13:46:17,615 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:46:17,625 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:46:17,644 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:46:18,000 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:46:18,003 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-01 13:46:18,006 - [INFO] - GAMUT-Production-Gateway - 🧊 [3D 通道] 接收到点云文件: strawberry002.ply
+2026-06-01 13:46:18,006 - [INFO] - GAMUT-Production-Gateway - 🔍 [真值检索] 提取编号: [002] -> 统一转换整数 ID 进行查表: [2]
+2026-06-01 13:46:18,009 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 列名对齐成功！形状: 1, 重量: 23.44g
+2026-06-01 13:46:23,507 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 13:46:23,522 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 002 的全链路多模态指标已被持久化写入数据库！
+2026-06-01 13:46:29,026 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:46:29,044 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:46:29,062 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:46:29,405 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:46:29,408 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-01 13:47:04,861 - [INFO] - GAMUT-Production-Gateway - 🧊 [3D 通道] 接收到点云文件: strawberry002.ply
+2026-06-01 13:47:04,861 - [INFO] - GAMUT-Production-Gateway - 🔍 [真值检索] 提取编号: [002] -> 统一转换整数 ID 进行查表: [2]
+2026-06-01 13:47:04,863 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 列名对齐成功！形状: 1, 重量: 23.44g
+2026-06-01 13:47:07,329 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 13:47:07,336 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 002 的全链路多模态指标已被持久化写入数据库！
+2026-06-01 13:50:22,829 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-01 13:50:22,840 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-01 13:50:22,856 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-01 13:50:23,194 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-01 13:50:23,197 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 16:48:44,296 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 16:48:44,308 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 16:48:44,337 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 16:48:44,822 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 16:48:44,828 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 16:52:19,162 - [INFO] - GAMUT-Production-Gateway - 🧊 [3D 通道] 接收到点云文件: strawberry022.ply
+2026-06-02 16:52:19,162 - [INFO] - GAMUT-Production-Gateway - 🔍 [真值检索] 提取编号: [022] -> 统一转换整数 ID 进行查表: [22]
+2026-06-02 16:52:19,165 - [INFO] - GAMUT-Production-Gateway - 🎯 [真值精准命中] 列名对齐成功！形状: 0, 重量: 23.98g
+2026-06-02 16:52:24,492 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 16:52:24,506 - [INFO] - GAMUT-Production-Gateway - 💾 [数据落盘成功] 样本 022 的全链路多模态指标已被持久化写入数据库！
+2026-06-02 17:00:29,360 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:00:29,369 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:00:29,393 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:00:29,822 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:00:29,824 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:05:48,233 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:05:48,246 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:05:48,263 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:05:48,647 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:05:48,651 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:06:55,717 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:06:55,729 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:06:55,744 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:06:56,110 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:06:56,113 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:08:45,157 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:08:45,168 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:08:45,185 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:08:45,564 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:08:45,567 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:10:58,679 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:10:58,690 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:10:58,706 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:10:59,058 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:10:59,061 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:11:37,559 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:11:37,572 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:11:37,592 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:11:37,987 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:11:37,991 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:13:16,348 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:13:16,361 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:13:16,379 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:13:16,713 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:13:16,719 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:13:41,214 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:13:41,225 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:13:41,242 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:13:41,636 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:13:41,639 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:16:59,224 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:16:59,234 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:16:59,250 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:16:59,611 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:16:59,615 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:18:22,363 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry041.ply
+2026-06-02 17:18:22,364 - [ERROR] - GAMUT-Production-Gateway - 💥 [前线网关] 派发异步任务失败: name 'async_heavy_strawberry_task' is not defined
+2026-06-02 17:20:39,621 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:20:39,629 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:20:39,640 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:20:39,672 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:20:39,675 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:21:20,749 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry035.ply
+2026-06-02 17:25:16,416 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:25:16,428 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:25:16,440 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:25:16,479 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:25:16,481 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:25:48,158 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry035.ply
+2026-06-02 17:27:29,584 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-02 17:27:29,592 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-02 17:27:29,602 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-02 17:27:29,635 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-02 17:27:29,638 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-02 17:27:38,814 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry035.ply
+2026-06-06 12:47:14,023 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 12:47:14,033 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 12:47:14,043 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 12:47:14,079 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 12:47:14,084 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 12:48:05,865 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:48:10,115 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (0/20) now.
+2026-06-06 12:48:12,150 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (1/20) in 1.00 second.
+2026-06-06 12:48:15,196 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (2/20) in 1.00 second.
+2026-06-06 12:48:18,249 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (3/20) in 1.00 second.
+2026-06-06 12:48:21,299 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (4/20) in 1.00 second.
+2026-06-06 12:48:24,324 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (5/20) in 1.00 second.
+2026-06-06 12:48:27,355 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (6/20) in 1.00 second.
+2026-06-06 12:48:30,404 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (7/20) in 1.00 second.
+2026-06-06 12:48:33,447 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (8/20) in 1.00 second.
+2026-06-06 12:48:36,474 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (9/20) in 1.00 second.
+2026-06-06 12:48:39,508 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (10/20) in 1.00 second.
+2026-06-06 12:48:42,546 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (11/20) in 1.00 second.
+2026-06-06 12:48:45,583 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (12/20) in 1.00 second.
+2026-06-06 12:48:48,621 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (13/20) in 1.00 second.
+2026-06-06 12:48:51,652 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (14/20) in 1.00 second.
+2026-06-06 12:48:54,710 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (15/20) in 1.00 second.
+2026-06-06 12:48:57,777 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (16/20) in 1.00 second.
+2026-06-06 12:49:00,836 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (17/20) in 1.00 second.
+2026-06-06 12:49:03,863 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (18/20) in 1.00 second.
+2026-06-06 12:49:06,922 - [ERROR] - celery.backends.redis - Connection to Redis lost: Retry (19/20) in 1.00 second.
+2026-06-06 12:49:09,946 - [CRITICAL] - celery.backends.asynchronous - 
+Retry limit exceeded while trying to reconnect to the Celery result store
+backend. The Celery application must be restarted.
+
+2026-06-06 12:49:09,946 - [ERROR] - GAMUT-Production-Gateway - 💥 [前线网关] 派发异步任务失败: 
+Retry limit exceeded while trying to reconnect to the Celery result store
+backend. The Celery application must be restarted.
+
+2026-06-06 12:51:13,076 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:20,167 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:20,861 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:21,346 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:21,801 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:23,344 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:23,852 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry021.ply
+2026-06-06 12:51:35,119 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry022.ply
+2026-06-06 12:56:04,590 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry004.ply
+2026-06-06 13:00:26,465 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 13:00:26,474 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 13:00:26,485 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 13:00:26,513 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 13:00:26,516 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 13:02:29,178 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry015.ply
+2026-06-06 13:02:56,397 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry015.ply
+2026-06-06 13:04:26,366 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 13:04:26,371 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 13:04:26,383 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 13:04:26,419 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 13:04:26,422 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 13:04:33,968 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry028.ply
+2026-06-06 13:06:41,149 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 13:06:41,157 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 13:06:41,168 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 13:06:41,199 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 13:06:41,202 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 13:06:43,946 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry040.ply
+2026-06-06 13:08:51,650 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 13:08:51,657 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 13:08:51,669 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 13:08:51,706 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 13:08:51,712 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 13:09:14,467 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry047.ply
+2026-06-06 13:10:57,597 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 13:10:57,605 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 13:10:57,615 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 13:10:57,655 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 13:10:57,659 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:14:09,117 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:14:09,126 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:14:09,135 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:14:09,165 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:14:09,168 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:14:31,519 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry087.ply
+2026-06-06 14:14:35,645 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry087.ply
+2026-06-06 14:14:42,389 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry087.ply
+2026-06-06 14:14:50,629 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry087.ply
+2026-06-06 14:41:03,039 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:41:03,047 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:41:03,060 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:41:03,101 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:41:03,107 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:42:12,339 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:42:12,348 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:42:12,358 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:42:12,388 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:42:12,391 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:43:08,562 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-06 14:43:29,235 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-06 14:44:33,241 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:44:33,259 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:44:33,291 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:44:33,342 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:44:33,346 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:45:22,212 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry093.ply
+2026-06-06 14:49:51,349 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:49:51,357 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:49:51,368 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:49:51,401 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:49:51,403 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:50:26,907 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry001.ply
+2026-06-06 14:50:28,998 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-06 14:51:13,708 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry007.ply
+2026-06-06 14:51:14,169 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-06 14:53:47,689 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:53:47,697 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:53:47,707 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:53:47,745 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:53:47,748 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:54:31,811 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-06 14:54:31,820 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-06 14:54:31,832 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-06 14:54:31,864 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-06 14:54:31,867 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-06 14:54:31,871 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry025.ply
+2026-06-06 14:54:35,979 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 16:37:08,267 - [INFO] - langchain_openai.chat_models._client_utils - langchain-openai detected system proxy configuration and no explicit `http_socket_options` / `http_client` / `http_async_client` / `openai_proxy`; skipping the custom `httpx` transport so httpx's env-proxy auto-detection applies. Pass `http_socket_options=[...]` to opt back into kernel-level TCP keepalive tuning on top of the env proxy.
+2026-06-10 16:37:29,812 - [INFO] - langchain_openai.chat_models._client_utils - langchain-openai detected system proxy configuration and no explicit `http_socket_options` / `http_client` / `http_async_client` / `openai_proxy`; skipping the custom `httpx` transport so httpx's env-proxy auto-detection applies. Pass `http_socket_options=[...]` to opt back into kernel-level TCP keepalive tuning on top of the env proxy.
+2026-06-10 16:37:38,915 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-10 16:37:38,920 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-10 16:37:38,936 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-10 16:37:38,975 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-10 16:37:38,979 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-10 16:40:59,660 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry004.ply
+2026-06-10 16:41:05,158 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 16:41:07,916 - [INFO] - GAMUT-Production-Gateway - 🕵️‍♂️ [解耦控制流] SSE 传输结束。正在凌空触发后台智能体进行车间现场决策...
+2026-06-10 16:41:09,735 - [INFO] - httpx - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 17:09:40,603 - [INFO] - langchain_openai.chat_models._client_utils - langchain-openai detected system proxy configuration and no explicit `http_socket_options` / `http_client` / `http_async_client` / `openai_proxy`; skipping the custom `httpx` transport so httpx's env-proxy auto-detection applies. Pass `http_socket_options=[...]` to opt back into kernel-level TCP keepalive tuning on top of the env proxy.
+2026-06-10 17:09:49,846 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-10 17:09:49,854 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-10 17:09:49,864 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-10 17:09:49,899 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-10 17:09:49,901 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-10 17:10:18,562 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry999.npy
+2026-06-10 17:13:42,023 - [INFO] - langchain_openai.chat_models._client_utils - langchain-openai detected system proxy configuration and no explicit `http_socket_options` / `http_client` / `http_async_client` / `openai_proxy`; skipping the custom `httpx` transport so httpx's env-proxy auto-detection applies. Pass `http_socket_options=[...]` to opt back into kernel-level TCP keepalive tuning on top of the env proxy.
+2026-06-10 17:13:51,336 - [INFO] - GAMUT-Production-Gateway - 🚀 [Lifespan] 服务器启动，开始装载真实神经网络模型...
+2026-06-10 17:13:51,345 - [INFO] - GAMUT-Production-Gateway - 💾 [3D GAMUT] 正在载入真实权重文件...
+2026-06-10 17:13:51,355 - [INFO] - GAMUT-Production-Gateway - ✅ [3D GAMUT] 论文模型已成功常驻显存！
+2026-06-10 17:13:51,387 - [INFO] - GAMUT-Production-Gateway - 📊 [真值表] 成功从 data_file/data.xlsx [Sheet1] 加载黄金标准数据库入内存！
+2026-06-10 17:13:51,389 - [INFO] - GAMUT-Production-Gateway - 🗄️ [SQLite 数据库] 工业级持久化质检大表初始化/连接成功！
+2026-06-10 17:13:51,391 - [INFO] - GAMUT-Production-Gateway - 🧊 [前线网关] 接收到高频相机点云冲击: strawberry999.npy
